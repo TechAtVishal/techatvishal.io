@@ -1,4 +1,5 @@
 .wrapper {
+  font-family: 'Bungee';font-size: 22px;
   width: 100vw;
   height: 100vh;
   background: radial-gradient(farthest-corner at 30vw 20vh, #00a1ce 1%, #3a19b3 100%);
@@ -16,7 +17,24 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
+.center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
 
+.center2 {
+        color: lightslategray;
+        margin: 0;
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
 .layer1 {
   width: 0.5rem;
   height: 0.5rem;
