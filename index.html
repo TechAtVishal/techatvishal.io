@@ -5,6 +5,7 @@
     <body>
         <link rel="stylesheet" type="text/css" href="style.css"/>
         <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
+        <script src="jquery-3.6.0.min.js"></script>
         <div class="wrapper">
             <center>
                 <div class="center">
@@ -15,9 +16,9 @@
                         Winter Edition 
                     </h2>
                 </div>
-                <div class="center2">
+                <div class="center, center2">
                 <p>
-                    Coming This Winter!
+                    Coming This December!
                 </p>
                 </div>
             </center>
@@ -28,5 +29,13 @@
             <div class="snow layer3 a"></div>
             <div class="snow layer3"></div>
         </div>
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <script>
+            $(window).on("load",function(){
+                $(".loader-wrapper").delay(3000).fadeOut("slow");
+            });
+        </script>
     </body>
 </html>
