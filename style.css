@@ -116,7 +116,7 @@
               color: lightslategray;
               position: static;
               left: 50%;
-                
+              top: 50%;
       }
       .layer1 {
         width: 0.5rem;
